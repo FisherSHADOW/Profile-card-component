@@ -1,0 +1,110 @@
+@font-face {
+    font-family: heading;
+    src: url(./SRC/Fonts/KumbhSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: thin-style;
+    src: url(./SRC/Fonts/KumbhSans-ExtraLight.ttf);
+}
+body{
+    min-height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.bg-top{
+    margin-top: -700px;
+    margin-left: -900px;
+}
+.bg-bottom{
+    margin-bottom: -1000px;
+    margin-right: -1000px;
+}
+header{
+    margin-left: -100px;
+}
+.main-box{
+    width: 350px;
+    height: 380px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto; 
+}
+.bg-pattern{ 
+    border-radius: 15px 15px 0 0;
+    display: flex;
+}
+.avatar{
+    border: 7px solid white;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-top: -55px;
+}
+h3{
+    font-family: heading;
+    font-size: 25px;
+    line-height: 0%;
+    margin-left: 85px;
+    margin-top: 10px;
+    color: #2b2b2be7;
+}
+#thin-font{
+    font-family: thin-style;
+    color: #777777;
+}
+h4{
+    font-family: thin-style;
+    font-size: 20px ;
+    line-height: 20px;
+    margin-left: 135px;
+    color: #777777;
+}
+hr{
+    height: 1px;
+    background-color: #7777775e;
+    border: none;
+}
+.stat1{
+    margin-top: 150px;
+    margin-left:100px;
+    padding-left: 25px;
+}
+.stat2{
+    margin-top: -44px;
+    margin-left: 230px;
+}
+.stat3{
+    margin-top: -44px;
+    margin-left: 330px;
+}
+.stat-title{
+    font-family: heading;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 0%;
+    color: #2b2b2be7;
+}
+.stat-name{
+    font-family: thin-style;
+    color: #777777;
+    font-size: 15px;
+    line-height: 0%;
+    font-weight: bold;
+}
+.stats-box{
+    margin-left: -75px;
+    margin-top: -115px;
+}
+#followers{
+margin-left: -10px;
+}
+#likes{
+margin-left: 9px;
+}
+#photos{
+margin: 2px;
+}
+
+
+
