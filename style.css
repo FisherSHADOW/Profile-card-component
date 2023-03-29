@@ -30,6 +30,8 @@ header{
     background-color: white;
     border-radius: 15px;
     margin: 0 auto; 
+    filter: drop-shadow(7px 8px 15px #2b2b2be7);
+    
 }
 .bg-pattern{ 
     border-radius: 15px 15px 0 0;
